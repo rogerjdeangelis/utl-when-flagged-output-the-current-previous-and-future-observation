@@ -7,9 +7,8 @@ If flagged output the current previous and future observation
    Keintz, Mark                                                                                                      
    mkeintz@wharton.upenn.edu                                                                                         
                                                                                                                      
-                                                                                                                     
-   * Tqo of Marks three solutions                                                                                    
-   * simplest;                                                                                                       
+                                                                                                                                                                                                      
+   * Marks simplest;                                                                                                       
    data want;                                                                                                        
       merge have                                                                                                     
             have (firstobs=2 keep=flag rename=(flag=lead_flag));                                                     
